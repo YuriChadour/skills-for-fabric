@@ -4,15 +4,24 @@
       "type": "http",
       "url": "https://api.fabric.microsoft.com/v1/mcp/fabricaihub/integrations/m365",
       "headers": {
-        "X-VARIANTS": "Fabric.Routing.LargeModelJMESPath"
+        "X-VARIANTS": "Fabric.Routing.PowerBIDataExploration"
       },
       "tools": [
-        "DiscoverArtifacts",
-        "GetReportMetadata",
-        "GetSemanticModelSchema",
-        "ValueSearch",
-        "ExecuteQuery",
-        "ResolveReportIdFromUrl"
+        "*"
+      ]
+    },
+    "powerbi-modeling-mcp": {
+      "type": "http",
+      "url": "https://api.fabric.microsoft.com/v1/mcp/powerbi/authoring",
+      "tools": [
+        "*"
+      ]
+    },
+    "fabric-sqlendpoint": {
+      "type": "http",
+      "url": "https://api.fabric.microsoft.com/v1/mcp/dataPlane/sqlEndpoint",
+      "tools": [
+        "execute_query"
       ]
     }
   }

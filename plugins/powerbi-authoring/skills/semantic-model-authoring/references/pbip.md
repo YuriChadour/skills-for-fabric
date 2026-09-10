@@ -110,7 +110,6 @@ Example of a `[name].pbip` file:
 
 Refer to [JSON Schema](https://github.com/microsoft/json-schemas/blob/main/fabric/pbip/pbipProperties/1.0.0/schema.json) for more details.
 
-
 ## References
 
 **External references** (request markdown when possible):
